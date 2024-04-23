@@ -1,14 +1,11 @@
 import React from "react";
+import Overview from "../../components/Overview/Overview";
 
 const HomePage = () => {
   return (
-    <div>
-      <button type="button" className="btn btn-primary">
-        Base class
-      </button>
-
-      <h1>Accelerate the world’s research one reference at a time.</h1>
-    </div>
+    <>
+      <Overview />
+    </>
   );
 };
 
