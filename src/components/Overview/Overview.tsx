@@ -45,20 +45,30 @@ const Overview = () => {
 
         <div className={classNames(styles.secondBox, "rounded-4")}>
           <img
-            src="/images/rocket-launch.svg"
+            src="/svgIcon/rocket-launch.svg"
             alt=""
             className={styles.rocketLaunchIcon}
           />
         </div>
 
-        <BoxWrap className={styles.flex2}>
-          <div className={classNames(styles.awardBox)}>
+        <BoxWrap className={classNames(styles.flex2, "position-relative")}>
+          <>
             <img
-              src="/images/award.png"
+              src="/images/award-image-1.png"
               alt=""
-              className={classNames(styles.awardImage)}
+              className={classNames("position-absolute", styles.awardImage1)}
             />
-          </div>
+            <img
+              src="/images/award-image-2.png"
+              alt=""
+              className={classNames("position-absolute", styles.awardImage2)}
+            />
+            <img
+              src="/images/award-image-3.png"
+              alt=""
+              className={classNames("position-absolute", styles.awardImage3)}
+            />
+          </>
         </BoxWrap>
 
         <div className={classNames(styles.box4, "p-2")}>
@@ -96,22 +106,22 @@ const Overview = () => {
 
             <div>
               <img
-                src="/images/box-6-icon-1.svg"
+                src="/svgIcon/box-6-icon-1.svg"
                 className="position-absolute top-0 start-0 pe-none"
                 alt=""
               />
               <img
-                src="/images/box-6-icon-2.svg"
+                src="/svgIcon/box-6-icon-2.svg"
                 className="position-absolute bottom-0 start-0 pe-none"
                 alt=""
               />
               <img
-                src="/images/box-6-icon-3.svg"
+                src="/svgIcon/box-6-icon-3.svg"
                 className="position-absolute end-0 bottom-0 pe-none z-1"
                 alt=""
               />
               <img
-                src="/images/box-6-star-1.svg"
+                src="/svgIcon/box-6-star-1.svg"
                 className={classNames(
                   "position-absolute top-0 pe-none",
                   styles.box6Star1
@@ -120,7 +130,7 @@ const Overview = () => {
               />
 
               <img
-                src="/images/box-6-star-2.svg"
+                src="/svgIcon/box-6-star-2.svg"
                 className={classNames(
                   "position-absolute top-0 pe-none",
                   styles.box6Star2
@@ -129,7 +139,7 @@ const Overview = () => {
               />
 
               <img
-                src="/images/box-6-star-3.svg"
+                src="/svgIcon/box-6-star-3.svg"
                 className={classNames(
                   "position-absolute end-0 pe-none",
                   styles.box6Star3
@@ -138,7 +148,7 @@ const Overview = () => {
               />
 
               <img
-                src="/images/box-6-star-4.svg"
+                src="/svgIcon/box-6-star-4.svg"
                 className={classNames(
                   "position-absolute bottom-0 pe-none",
                   styles.box6Star4
@@ -147,7 +157,7 @@ const Overview = () => {
               />
 
               <img
-                src="/images/box-6-star-5.svg"
+                src="/svgIcon/box-6-star-5.svg"
                 className={classNames(
                   "position-absolute start-0 pe-none",
                   styles.box6Star5

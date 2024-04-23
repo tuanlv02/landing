@@ -1,0 +1,66 @@
+.wrapper {
+  padding: 120px 0;
+}
+
+.footerInner {
+  max-width: 800px;
+}
+
+.title {
+  font-size: 18px;
+  color: var(--text-primary);
+}
+
+.dropdown {
+  width: 147px;
+  box-shadow: 0px 1px 2px 0px #05050526;
+  border-color: #e4e4e7;
+  height: 26px;
+  padding: 0px 6px;
+  cursor: pointer;
+}
+
+.dropdownTxt {
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.listMenu {
+  margin: 68px 0;
+}
+
+.menuColumnLeft {
+  column-gap: 68px;
+}
+
+.menuTxt {
+  color: #8d8c97;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.menuTitle {
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.listIcon {
+  column-gap: 20px;
+}
+
+.divider {
+  flex: 1;
+  height: 1px;
+  background-color: #e4e4e7;
+}
+
+.backedBy {
+  padding: 0px 6px;
+  height: 26px;
+  border-color: #e4e4e7;
+  border-radius: 6px;
+}
+
+.footerBottom {
+  margin-top: 80px;
+}

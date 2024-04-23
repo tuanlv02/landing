@@ -19,7 +19,7 @@ const Header = () => {
             styles.headerLeft
           )}
         >
-          <img src="/images/logo.svg" alt="Logo" className={styles.logo} />
+          <img src="/svgIcon/logo.svg" alt="Logo" className={styles.logo} />
           <p className={classNames("fw-semibold", styles.headerTxt)}>A******</p>
         </div>
 

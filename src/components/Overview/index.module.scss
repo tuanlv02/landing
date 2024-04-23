@@ -1,5 +1,6 @@
 .wrapper {
   margin-top: 160px;
+  margin-bottom: 52px;
   padding: 0px 40px;
   max-width: calc(897px + 80px);
 }
@@ -40,6 +41,26 @@
 
 .awardBox {
   height: 100%;
+}
+
+.awardImage1 {
+  top: 0;
+  height: 155px;
+  z-index: 1;
+}
+
+.awardImage2 {
+  top: 12px;
+  height: 130px;
+  left: 50%;
+  transform: translateX(-115%);
+}
+
+.awardImage3 {
+  @extend .awardImage2;
+  right: 0;
+  transform: translateX(-12%);
+  left: unset;
 }
 
 .awardImage {
