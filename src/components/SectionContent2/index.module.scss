@@ -1,12 +1,81 @@
 .backgroundImage {
-  background-image: url("../../../public/images/section-content-2-image.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   padding-top: 62.4%;
 }
 
 .backgroundImageWrap {
   max-width: 705px;
   margin: 0 auto;
+}
+
+.image1 {
+  width: 140px;
+  top: 0;
+  left: 40%;
+  z-index: 10;
+}
+
+.image2 {
+  left: 0;
+  top: 5%;
+  width: 230px;
+  z-index: 9;
+}
+
+.image3 {
+  left: 23%;
+  top: 5%;
+  width: 230px;
+}
+
+.image4 {
+  width: 230px;
+  top: 10%;
+  left: 44%;
+  z-index: 8;
+}
+
+.image5 {
+  width: 230px;
+  right: 0;
+  top: 3%;
+  z-index: 9;
+}
+
+.image6 {
+  width: 80px;
+  top: 38%;
+  left: 5%;
+  z-index: 10;
+}
+
+.image7 {
+  width: 230px;
+  bottom: 5%;
+  left: 10%;
+}
+
+.image8 {
+  width: 260px;
+  bottom: 0;
+  left: 29%;
+}
+
+.image9 {
+  width: 240px;
+  right: 10%;
+  bottom: 5%;
+  z-index: 8;
+}
+
+.image10 {
+  width: 150px;
+  right: 0;
+  top: 41%;
+  z-index: 10;
+}
+
+.image11 {
+  width: 275px;
+  bottom: 0;
+  left: 15%;
 }

@@ -1,12 +1,40 @@
 .backgroundImage {
-  background-image: url("../../../public/images/section-content-1-image.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   padding-top: 70.4%;
 }
 
 .backgroundImageWrap {
   max-width: 682px;
   margin: 0 auto;
+}
+
+.image1 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.image2 {
+  width: 182px;
+  height: 182px;
+  top: 0;
+  left: 25%;
+}
+
+.image3 {
+  width: 332px;
+  height: 293px;
+  object-fit: contain;
+  bottom: 0;
+  left: 0;
+}
+
+.image4 {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  bottom: 8%;
+  right: 15%;
 }

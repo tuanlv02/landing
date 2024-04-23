@@ -19,7 +19,9 @@ const Header = () => {
             styles.headerLeft
           )}
         >
-          <img src="/svgIcon/logo.svg" alt="Logo" className={styles.logo} />
+          <Link to="/">
+            <img src="/svgIcon/logo.svg" alt="Logo" className={styles.logo} />
+          </Link>
           <p className={classNames("fw-semibold", styles.headerTxt)}>A******</p>
         </div>
 
@@ -48,24 +50,28 @@ const Header = () => {
             styles.headerRight
           )}
         >
-          <button
-            className={classNames(styles.btn, "px-4 btn border rounded-3")}
-          >
-            <p className={classNames("fw-medium lh-sm", styles.loginTxt)}>
-              Log in
-            </p>
-          </button>
+          <Link to="/sign-in">
+            <button
+              className={classNames(styles.btn, "px-4 btn border rounded-3")}
+            >
+              <p className={classNames("fw-medium lh-sm", styles.loginTxt)}>
+                Log in
+              </p>
+            </button>
+          </Link>
 
-          <button
-            className={classNames(
-              "px-4 btn border-1 rounded-3",
-              styles.btnPrimary
-            )}
-          >
-            <p className={classNames("fw-medium lh-sm text-white")}>
-              Try for free
-            </p>
-          </button>
+          <Link to="/sign-up">
+            <button
+              className={classNames(
+                "px-4 btn border-1 rounded-3",
+                styles.btnPrimary
+              )}
+            >
+              <p className={classNames("fw-medium lh-sm text-white")}>
+                Try for free
+              </p>
+            </button>
+          </Link>
         </div>
       </div>
     </header>

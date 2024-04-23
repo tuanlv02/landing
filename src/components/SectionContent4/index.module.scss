@@ -1,12 +1,32 @@
 .backgroundImage {
-  background-image: url("../../../public/images/section-content-4-image.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   padding-top: 83.8%;
 }
 
 .backgroundImageWrap {
   max-width: 682px;
   margin: 0 auto;
+}
+
+.image1 {
+  width: 614px;
+  height: 378px;
+  top: 0;
+}
+
+.image2 {
+  width: 200px;
+  bottom: 10%;
+  left: 10%;
+}
+
+.image3 {
+  width: 240px;
+  bottom: 7%;
+  left: 31%;
+}
+
+.image4 {
+  width: 180px;
+  bottom: 2%;
+  left: 18%;
 }
