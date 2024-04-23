@@ -38,3 +38,22 @@
   bottom: 8%;
   right: 15%;
 }
+
+@media (max-width: 375px) {
+  .image3 {
+    height: 187px;
+    width: 212px;
+    left: -12%;
+    bottom: -10%;
+  }
+
+  .image4 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .image2 {
+    width: 100px;
+    height: 100px;
+  }
+}

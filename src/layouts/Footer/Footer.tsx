@@ -260,7 +260,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div className={styles.menuColumnRight}>
             <p className={classNames("fw-medium", styles.menuTxt)}>
               Copyright ©2023 A****** inc.️
             </p>

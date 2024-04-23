@@ -32,7 +32,7 @@ const Overview = () => {
       )}
     >
       <div className={classNames("d-flex column-gap-4", styles.firstRow)}>
-        <BoxWrap className={styles.flex2}>
+        <BoxWrap className={classNames(styles.flex2, styles.box1Wrap)}>
           <div className={classNames("text-center", styles.firstBox)}>
             <p className={classNames("fw-semibold mb-2", styles.largeTxt)}>
               2023
@@ -51,7 +51,9 @@ const Overview = () => {
           />
         </div>
 
-        <BoxWrap className={classNames(styles.flex2, "position-relative")}>
+        <BoxWrap
+          className={classNames(styles.flex2, styles.box3, "position-relative")}
+        >
           <>
             <img
               src="/images/award-image-1.png"
@@ -168,7 +170,7 @@ const Overview = () => {
           </div>
         </BoxWrap>
 
-        <div className={classNames(styles.box4, "p-2")}>
+        <div className={classNames(styles.box4, styles.box7, "p-2")}>
           <img
             src="/images/box-7-image.png"
             alt=""
@@ -176,7 +178,7 @@ const Overview = () => {
           />
         </div>
 
-        <BoxWrap className={styles.flex2}>
+        <BoxWrap className={classNames(styles.flex2, styles.box8)}>
           <div className={classNames("text-center", styles.firstBox)}>
             <p className={classNames("fw-semibold mb-2", styles.largeTxt)}>
               $700,000+

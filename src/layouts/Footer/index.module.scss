@@ -1,9 +1,17 @@
+$padding: 40px;
+
 .wrapper {
   padding: 120px 0;
 }
 
 .footerInner {
-  max-width: 800px;
+  padding: 0 $padding;
+  max-width: calc(800px + $padding * 2);
+
+  @media (max-width: 375px) {
+    max-width: 100%;
+    padding: 0 16px;
+  }
 }
 
 .title {
@@ -27,16 +35,27 @@
 
 .listMenu {
   margin: 68px 0;
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+  }
 }
 
 .menuColumnLeft {
   column-gap: 68px;
+
+  @media (max-width: 375px) {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 32px;
+  }
 }
 
 .menuTxt {
   color: #8d8c97;
   font-size: 14px;
   letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 .menuTitle {
@@ -63,4 +82,22 @@
 
 .footerBottom {
   margin-top: 80px;
+  padding: 0 $padding;
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+  }
+}
+
+.menuColumnRight {
+  @media (max-width: 375px) {
+    margin-top: 40px;
+    border-top: 1px solid #e4e4e7;
+    padding-top: 40px;
+    text-align: center;
+
+    .listIcon {
+      justify-content: center !important;
+    }
+  }
 }

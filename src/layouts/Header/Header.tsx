@@ -9,7 +9,7 @@ const Header = () => {
     <header className={classNames("border-b border-bottom", styles.header)}>
       <div
         className={classNames(
-          "mx-auto d-flex align-items-center justify-content-between px-2",
+          "mx-auto d-flex align-items-center justify-content-between",
           styles.headerInner
         )}
       >
@@ -25,7 +25,12 @@ const Header = () => {
           <p className={classNames("fw-semibold", styles.headerTxt)}>A******</p>
         </div>
 
-        <ul className="d-flex align-items-center justify-content-center column-gap-4">
+        <ul
+          className={classNames(
+            "d-flex align-items-center justify-content-center column-gap-4",
+            styles.headerMenu
+          )}
+        >
           <Link className="text-decoration-none" to="/affiliate">
             <li className={classNames(styles.menuTxt, "fw-medium")}>
               Affiliate
@@ -50,7 +55,7 @@ const Header = () => {
             styles.headerRight
           )}
         >
-          <Link to="/sign-in">
+          <Link to="/sign-in" className={styles.tabletHidden}>
             <button
               className={classNames(styles.btn, "px-4 btn border rounded-3")}
             >
@@ -60,7 +65,7 @@ const Header = () => {
             </button>
           </Link>
 
-          <Link to="/sign-up">
+          <Link to="/sign-up" className={styles.tabletHidden}>
             <button
               className={classNames(
                 "px-4 btn border-1 rounded-3",
@@ -72,6 +77,15 @@ const Header = () => {
               </p>
             </button>
           </Link>
+
+          <button
+            className={classNames(
+              "btn d-none align-items-center justify-content-center p-0",
+              styles.btnTablet
+            )}
+          >
+            <img src="/svgIcon/menu.svg" alt="" />
+          </button>
         </div>
       </div>
     </header>
