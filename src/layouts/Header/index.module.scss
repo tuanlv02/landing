@@ -1,0 +1,45 @@
+.header {
+  border-bottom-color: #f7f7f8;
+
+  .headerInner {
+    height: 76px;
+    max-width: calc(1200px + 16px);
+  }
+
+  .headerTxt {
+    font-size: 18px;
+  }
+
+  .btn {
+    box-shadow: 0px 1px 2px 0px #05050526;
+    border-color: #e4e4e7;
+  }
+
+  .loginTxt {
+    color: var(--text-primary);
+    font-size: 14px;
+  }
+
+  .btnPrimary {
+    height: 34px;
+    border-color: #6f58ff;
+    box-shadow: 0px 1px 2px 0px #6c56f04d;
+    background: linear-gradient(
+        180deg,
+        rgba(5, 5, 5, 0) 0%,
+        rgba(5, 5, 5, 0.3) 100%
+      ),
+      #6f58ff;
+    font-size: 14px;
+  }
+
+  .headerLeft,
+  .headerRight {
+    flex: 1;
+  }
+
+  .menuTxt {
+    color: var(--text-primary);
+    font-size: 14px;
+  }
+}
