@@ -1,4 +1,3 @@
-import React from "react";
 import Overview from "../../components/Overview/Overview";
 import SectionContent1 from "../../components/SectionContent1/SectionContent1";
 import SectionContent2 from "../../components/SectionContent2/SectionContent2";

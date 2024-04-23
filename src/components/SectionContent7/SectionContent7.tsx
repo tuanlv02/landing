@@ -1,4 +1,3 @@
-import React from "react";
 import SectionContentWrap from "../SectionContentWrap/SectionContentWrap";
 
 import styles from "./index.module.scss";
