@@ -6,7 +6,7 @@
   max-width: 705px;
   margin: 0 auto;
 
-  @media (max-width: 375px) {
+  @media (max-width: 576px) {
     max-width: 100%;
     padding: 0 10px;
   }
@@ -85,7 +85,7 @@
   left: 15%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   .image2,
   .image3,
   .image4,
